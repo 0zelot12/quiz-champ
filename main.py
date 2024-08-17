@@ -19,10 +19,10 @@ def prompt_llm(text):
     chat_messages = [
         SystemMessage(
             content=(
-                "Du hilft dabei Quizfragen aus verschiedenen Kategorien zu beantworten."
-                "Es wird dir ein String präsentiert, der die Frage sowie 4 mögliche Antworten enthält."
+                "Du hilfst dabei Quizfragen aus verschiedenen Kategorien zu beantworten."
+                "Dir wird ein String präsentiert, der die Frage sowie 4 mögliche Antworten enthält."
                 "Der String enthält möglicherweise irrelevante Zeichen, da er aus einem Bild extrahiert wurde."
-                "Gebe als Anwort lediglich die Option zurück, es sind keine weiteren Erklärungen nötig."
+                "Gib als Anwort lediglich die korrekte Option zurück, es sind keine weiteren Erklärungen nötig."
                 "Dies ist ein Beispiel: "
                 "Wann wurde Elvis Presley geboren?"
                 "8. Februar 1935"
